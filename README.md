@@ -1,1 +1,1 @@
-# tan-and-sec
+# all trigonometry full calculus and more
