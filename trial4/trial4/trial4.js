@@ -35,7 +35,7 @@ let sincirclebutton
 let isSincicle = false
 
 function setup() {
-  let width = windowWidth / 1.5
+  let width = windowWidth / 1.4
   let height = windowHeight / 1.1
   let canv = createCanvas(width, height)
   canv.parent('can-container')
