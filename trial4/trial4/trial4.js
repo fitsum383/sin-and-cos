@@ -35,7 +35,7 @@ let sincirclebutton
 let isSincicle = false
 
 function setup() {
-  let width = windowWidth / 1.4
+  let width = windowWidth / 1.35
   let height = windowHeight / 1.1
   let canv = createCanvas(width, height)
   canv.parent('can-container')
@@ -47,9 +47,9 @@ function setup() {
     $("#begin").hide(500)
     $("#begin2").show(800)
     $("#begin3").show(1300)
-    for (let i = 1; i < 2; i++) {
+    for (let i = 1; i < 3; i++) {
       $("#begin4").show(1500, function () {
-        let move = 200*i
+        let move = 250*i
         $("#p").animate({left: move})
         $("#p").animate({top: move})
         $("#p").animate({
